@@ -1,0 +1,236 @@
+
+
+//AICTE WEB DEVELOPMENT INTERNSHIP TASK 3
+//glitch link this link is redirect to webpage : https://eggplant-ten-sailfish.glitch.me/
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>mini project</title>
+	
+	<style>
+		body{
+	font-family:'PT sans' sans-serif;
+	background-color: #78786c;
+	margin: 0;
+	color:#ffffff;
+	line-height: 1.6;
+}
+
+a{
+	text-decoration: none;
+	color:#fff;
+
+}
+
+#showcase{
+	margin: 0;
+	padding: 0;
+	/*background: url('Praveen pic.jpg');
+	background-repeat: no-repeat;
+	background-position: center; 
+	background-size: cover;*/
+	background:url('download.jpeg') no-repeat center/cover;
+	width: 100%;
+	height: 100vh;/* viewport-height*/
+	position: relative;
+	overflow: hidden;
+
+
+}
+.section-main{
+	
+	margin-top:30vh;
+	padding-top:40px;	
+}
+h1{
+	font-size: 4rem;   /*root element font size*/
+}
+h2{
+	font-size: 2rem;
+}
+nav{
+	height: 40px;
+	width: 100%;
+	background-color: white;
+	
+	
+	position: fixed;
+}
+nav.ul{
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+nav li{
+	display: inline;
+	float: left;
+
+}
+nav a{
+	display: inline-block;
+	 width: 100px;
+	 text-align: center;
+	 text-decoration: none;
+	 padding: 0px 0 ;
+	 color:black;
+
+
+}
+nav li:hover{
+	background-color: #444;
+}
+.container{
+	max-width: 1180px;
+	text-align: center;
+	margin: 0 auto;
+	padding: 0 3rem;
+}
+.lead{
+	 font-height:1.3rem;
+}
+.footer-cols{
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+	padding: 2rem;
+	text-align: left;
+	font-size: 14px;
+}
+.footer-cols ul{
+	list-style: none;
+}
+.footer-cols ul li:first-child{
+	font-size: 20px;
+	padding-bottom: 5px;
+	border-bottom: #444 solid 2px;
+
+}
+.footer-bottom{
+	background-color: #333;
+	text-align: center;
+
+}
+
+	</style>
+</head>
+<body>
+ 	<div id=showcase>
+ 		<header>
+ 			<nav class="cf">
+ 				<ul class="cf">
+ 					<li>
+ 						<a href="#showcase">Gl sports</a>
+ 					</li>
+ 					<li>
+ 						<a href="#About us">About us</a>
+ 					</li>
+ 					<li>
+ 						<a href="#Indoor">Indoor</a>
+ 					</li>
+ 					<li>
+ 						<a href="#Outdoor">Outdoor</a>
+ 					</li>
+ 					<li>
+ 						<a href="#History">History</a>
+ 					</li>
+ 				</ul> 
+ 				<a href="#" id="openup"></a>
+ 			</nav>
+ 		</header>
+ 		<div class="section-main container">
+ 			<h1>E-commerce</h1>
+ 			<h2>this is my new copy paste website frontend project</h2>
+ 			<p class="lead hide-on-small">
+ 				An effective eCommerce website is meticulously designed to enhance user experience, prioritizing a seamless and intuitive shopping journey. It features a responsive design to ensure that the site adapts smoothly to various devices and screen sizes, broadening its reach. High-quality product listings with detailed descriptions and clear pricing engage
+
+
+
+ 			</p>
+ 		</div>
+ 	</div> 
+ 		<footer>
+ 			<div class="container">
+ 				<div class="footer-cols">
+ 					<ul>
+ 						<li>Men</li>
+ 						<li>
+ 							<a href="#"> Shirts</a>
+ 						</li>
+ 						<li>
+ 							<a href="#"> Pants</a>
+ 						</li>
+ 						<li>
+ 							<a href="#">Tshirts</a>
+ 						</li>
+ 						<li>
+ 							<a href="#"> shoes</a>
+ 						</li>
+ 						<li>
+ 							<a href="#">slippers</a>
+ 						</li>
+ 					</ul>
+
+ 					<ul>
+ 						<li>Womens</li>
+ 						<li>
+ 							<a href="#">Chudidhars</a>
+ 						</li>
+ 						<li>
+ 							<a href="#">Jeans</a>
+ 						</li>
+ 						<li>
+ 							<a href="#">sleveless</a>
+ 						</li>
+ 						<li>
+ 							<a href="#"> Tshirts</a>
+ 						</li>
+ 						<li>
+ 							<a href="#">shoes</a>
+ 						</li>
+ 					</ul>
+
+ 					<ul>
+ 						<li>Kids</li>
+ 						<li>
+ 							<a href="#">Tshirts</a>
+ 						</li>
+ 						<li>
+ 							<a href="#">Pants</a>
+ 						</li>
+ 						<li>
+ 							<a href="#">shoes</a>
+ 						</li>
+ 						<li>
+ 							<a href="#">Toys</a>
+ 						</li>
+ 						<li>
+ 							<a href="#">Chocolates</a>
+ 						</li>
+ 					</ul>
+
+ 					<ul>
+ 						<li>Home-needs</li>
+ 						<li>
+ 							<a href="#">Kitchen-needs</a>
+ 						</li>
+ 						<li>
+ 							<a href="#">Chairs</a>
+ 						</li>
+ 						<li>
+ 							<a href="#">Fans</a>
+ 						</li>
+ 						<li>
+							<a href="#">Tables</a>
+ 						</li>
+ 						<li>
+ 							<a href="#">others</a>
+ 						</li>
+ 					</ul>
+ 				</div>
+ 			</div>
+ 			<div class="footer-bottom">
+ 				Copyright &copy; 2024 Ecommerce
+ 		</footer>
+ </body>
+ </html>
